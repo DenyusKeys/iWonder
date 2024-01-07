@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>I Wonder...</title>
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
@@ -16,12 +16,13 @@
         <form>
             <p><label for="questionLabel">I wonder...</label></p>
             <p><textarea id="question" name="question" rows="2" cols="40" placeholder="What are you wondering?"></textarea></p>
-            <input id="submitButton" type="submit" value="Submit">
+            <input id="submitButton" type="button" value="Ask" onclick="sendToOpenAI()">
         </form>
     </div>
 
     <div class="answerBox">
-        <div class="answer"><p></p></div>
+        <label for="answerText">API Response: </label>
+        <textarea id="answer" rows="4" cols="50" readonly></textarea>
     </div>
 
 	<script src="index.js"></script>
