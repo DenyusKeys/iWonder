@@ -16,12 +16,12 @@
         <form>
             <p><label for="questionLabel">I wonder...</label></p>
             <p><textarea id="question" name="question" rows="2" cols="40" placeholder="What are you wondering?"></textarea></p>
-            <input id="submitButton" type="button" value="Ask" onclick="sendToOpenAI()">
+            <input id="submitButton" type="button" value="Ask" onclick="addNumber()">
         </form>
     </div>
 
     <div class="answerBox">
-        <label for="answerText">API Response: </label>
+        <label for="answerLabel">API Response: </label>
         <textarea id="answer" rows="4" cols="50" readonly></textarea>
     </div>
 

@@ -27,10 +27,9 @@ textarea {
     display: flex;
     justify-content: center;
     text-align: center;
-    border:3px solid green;
     height: 200px;
-    
-    
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
 #submitButton {
