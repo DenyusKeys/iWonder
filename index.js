@@ -1,5 +1,5 @@
 // Replace 'YOUR_API_KEY' with your actual OpenAI API key
-const apiKey = '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';
+const apiKey = "";
 const apiUrl = 'https://api.openai.com/v1/chat/completions'; // Updated API endpoint for ChatGPT 3.5
 
 // Example conversation for chat completion
